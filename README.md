@@ -168,12 +168,3 @@ python3 scripts/plot_profiling_runs.py \
 - Если в паре `P/C` растут `backoff_spin` и `atomics_control`, это обычно признак усиления CAS contention.
 - Доминирование `enqueue_path` или `dequeue_path` показывает, какая часть fast path становится основным bottleneck.
 
-## Основные артефакты
-
-- `docs/images/throughput_heatmaps.png`
-- `docs/images/top_scenarios.png`
-- `docs/images/capacity_trends_balanced.png`
-- `docs/images/profiling_runs_summary.png`
-- `docs/images/profiling_symbol_distribution_pc_grid_subplots.png`
-- `docs/images/profiling_runs_summary.csv`
-- `docs/images/profiling_symbol_distribution_table.csv`
